@@ -6,8 +6,16 @@
   "evaluationVersion": 2,
   "pages": [
     {
-      "id": "Page1",
+      "id": "Editor",
+      "isDefault": false
+    },
+    {
+      "id": "Home",
       "isDefault": true
+    },
+    {
+      "id": "Action Plan",
+      "isDefault": false
     }
   ]
 }

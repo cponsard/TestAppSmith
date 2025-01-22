@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "6790cd9078f8f727771f360d_5af7b86d-6bbf-4582-a6b3-b602aba95f75",
-  "id": "Page1_Insert_Risk1",
+  "gitSyncId": "6790cd9078f8f727771f360d_a027210b-6848-4271-bb3c-747bc8fbe359",
+  "id": "Editor_Update_Risk1",
   "pluginId": "google-sheets-plugin",
   "pluginType": "SAAS",
   "unpublishedAction": {
@@ -8,7 +8,7 @@
       "encodeParamsToggle": true,
       "formData": {
         "command": {
-          "data": "INSERT_ONE"
+          "data": "UPDATE_ONE"
         },
         "entityType": {
           "data": "ROWS"
@@ -29,7 +29,7 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{{(Table1.newRow || {})}}"
+          "data": "{{Table1.updatedRow}}"
         },
         "sheetName": {
           "data": "Risk"
@@ -65,8 +65,8 @@
       }
     ],
     "executeOnLoad": false,
-    "name": "Insert_Risk1",
-    "pageId": "Page1",
+    "name": "Update_Risk1",
+    "pageId": "Editor",
     "userSetOnLoad": false
   }
 }
