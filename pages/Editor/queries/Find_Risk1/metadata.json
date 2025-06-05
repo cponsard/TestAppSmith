@@ -82,9 +82,9 @@
         "key": "formData.pagination.data"
       }
     ],
-    "executeOnLoad": true,
     "name": "Find_Risk1",
     "pageId": "Editor",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": false
   }
 }
