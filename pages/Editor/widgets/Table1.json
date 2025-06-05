@@ -42,7 +42,9 @@
     "EditActions1"
   ],
   "columnUpdatedAt": 1737544776595,
-  "columnWidthMap": {},
+  "columnWidthMap": {
+    "Value": 101
+  },
   "customIsLoading": false,
   "customIsLoadingValue": "",
   "defaultPageSize": 0,
@@ -422,7 +424,7 @@
   },
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 37,
+  "rightColumn": 44,
   "searchKey": "",
   "serverSidePaginationEnabled": true,
   "showInlineEditingOptionDropdown": true,
